@@ -1,0 +1,12 @@
+Part3.py:
+The code performs hyperparameter tuning through a grid search and trains the model with the best hyperparameters. 
+It also combines datasets, performs training, validation, and testing, and calculates confidence intervals for the test accuracy.
+
+Hyperparameter Configuration
+hidden_layers_values: List of the number of hidden layers to consider.
+num_neurons: List of the number of neurons in the hidden layers.
+learning_rate_values: List of learning rates to consider.
+activation_functions: List of activation functions to consider.
+batch_sizes: List of batch sizes to consider.
+max_epochs_values: List of the maximum number of epochs to train for.
+patience: Early stopping parameter.
